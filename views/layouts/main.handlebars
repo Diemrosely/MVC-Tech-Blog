@@ -1,0 +1,116 @@
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>The Tech Blog</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css'
+      rel='stylesheet'
+    />
+    <link rel='stylesheet' href='/css/style.css' />
+  </head>
+
+  <body class='d-flex flex-column min-vh-100'>
+    <nav class='navbar navbar-expand-lg navbar-light bg-light'>
+      <div class='container-fluid'>
+        <a class='navbar-brand' href='/'>
+           <img src="/assets/blog.svg" alt="Home" width="50" height="50"> The Tech Blog
+        </a>
+        <button
+          class='navbar-toggler'
+          type='button'
+          data-bs-toggle='collapse'
+          data-bs-target='#navbarNav'
+          aria-controls='navbarNav'
+          aria-expanded='false'
+          aria-label='Toggle navigation'
+        >
+          <span class='navbar-toggler-icon'></span>
+        </button>
+        <div class='collapse navbar-collapse' id='navbarNav'>
+          <ul class='navbar-nav ms-auto'>
+            <li class='nav-item'>
+              <a class='nav-link' href='/'>
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 32 32">
+            <path
+              d="M16 6A1 1 0 1016 8 1 1 0 1016 6zM19 9A1 1 0 1019 11 1 1 0 1019 9zM16 9A1 1 0 1016 11 1 1 0 1016 9zM13 9A1 1 0 1013 11 1 1 0 1013 9zM22 12A1 1 0 1022 14 1 1 0 1022 12zM19 12A1 1 0 1019 14 1 1 0 1019 12zM16 12A1 1 0 1016 14 1 1 0 1016 12zM13 12A1 1 0 1013 14 1 1 0 1013 12zM10 12A1 1 0 1010 14 1 1 0 1010 12zM25 15A1 1 0 1025 17 1 1 0 1025 15zM22 15A1 1 0 1022 17 1 1 0 1022 15zM19 15A1 1 0 1019 17 1 1 0 1019 15zM16 15A1 1 0 1016 17 1 1 0 1016 15zM13 15A1 1 0 1013 17 1 1 0 1013 15zM10 15A1 1 0 1010 17 1 1 0 1010 15zM7 15A1 1 0 107 17 1 1 0 107 15zM25 18A1 1 0 1025 20 1 1 0 1025 18zM22 18A1 1 0 1022 20 1 1 0 1022 18zM10 18A1 1 0 1010 20 1 1 0 1010 18zM7 18A1 1 0 107 20 1 1 0 107 18zM4 18A1 1 0 104 20 1 1 0 104 18zM25 21A1 1 0 1025 23 1 1 0 1025 21zM22 21A1 1 0 1022 23 1 1 0 1022 21zM10 21A1 1 0 1010 23 1 1 0 1010 21zM7 21A1 1 0 107 23 1 1 0 107 21zM4 21A1 1 0 104 23 1 1 0 104 21zM25 24A1 1 0 1025 26 1 1 0 1025 24zM28 18A1 1 0 1028 20 1 1 0 1028 18zM16 0A1 1 0 1016 2 1 1 0 1016 0zM19 3A1 1 0 1019 5 1 1 0 1019 3zM13 3A1 1 0 1013 5 1 1 0 1013 3zM22 6A1 1 0 1022 8 1 1 0 1022 6zM10 6A1 1 0 1010 8 1 1 0 1010 6zM25 9A1 1 0 1025 11 1 1 0 1025 9zM7 9A1 1 0 107 11 1 1 0 107 9zM4 12A1 1 0 104 14 1 1 0 104 12zM28 12A1 1 0 1028 14 1 1 0 1028 12zM31 15A1 1 0 1031 17 1 1 0 1031 15zM1 15A1 1 0 101 17 1 1 0 101 15zM28 21A1 1 0 1028 23 1 1 0 1028 21zM28 24A1 1 0 1028 26 1 1 0 1028 24zM22 24A1 1 0 1022 26 1 1 0 1022 24zM10 24A1 1 0 1010 26 1 1 0 1010 24zM7 24A1 1 0 107 26 1 1 0 107 24zM4 24A1 1 0 104 26 1 1 0 104 24zM25 27A1 1 0 1025 29 1 1 0 1025 27zM28 27A1 1 0 1028 29 1 1 0 1028 27zM22 27A1 1 0 1022 29 1 1 0 1022 27zM10 27A1 1 0 1010 29 1 1 0 1010 27zM7 27A1 1 0 107 29 1 1 0 107 27zM4 27A1 1 0 104 29 1 1 0 104 27z">
+            </path>
+          </svg>
+        </a>
+              </a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href='/dashboard'>
+              <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.4"
+                  d="M12.1207 12.78C12.0507 12.77 11.9607 12.77 11.8807 12.78C10.1207 12.72 8.7207 11.28 8.7207 9.50998C8.7207 7.69998 10.1807 6.22998 12.0007 6.22998C13.8107 6.22998 15.2807 7.69998 15.2807 9.50998C15.2707 11.28 13.8807 12.72 12.1207 12.78Z"
+                  stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path opacity="0.34"
+                  d="M18.7398 19.3801C16.9598 21.0101 14.5998 22.0001 11.9998 22.0001C9.39977 22.0001 7.03977 21.0101 5.25977 19.3801C5.35977 18.4401 5.95977 17.5201 7.02977 16.8001C9.76977 14.9801 14.2498 14.9801 16.9698 16.8001C18.0398 17.5201 18.6398 18.4401 18.7398 19.3801Z"
+                  stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                  stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              </a>
+            </li>
+            {{#if logged_in}}
+              <li class='nav-item'>
+                <a class='nav-link' href='#' id='logout'>
+                  <svg width="40px" height="40px" viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.75 9.874C11.75 10.2882 12.0858 10.624 12.5 10.624C12.9142 10.624 13.25 10.2882 13.25 9.874H11.75ZM13.25 4C13.25 3.58579 12.9142 3.25 12.5 3.25C12.0858 3.25 11.75 3.58579 11.75 4H13.25ZM9.81082 6.66156C10.1878 6.48991 10.3542 6.04515 10.1826 5.66818C10.0109 5.29121 9.56615 5.12478 9.18918 5.29644L9.81082 6.66156ZM5.5 12.16L4.7499 12.1561L4.75005 12.1687L5.5 12.16ZM12.5 19L12.5086 18.25C12.5029 18.25 12.4971 18.25 12.4914 18.25L12.5 19ZM19.5 12.16L20.2501 12.1687L20.25 12.1561L19.5 12.16ZM15.8108 5.29644C15.4338 5.12478 14.9891 5.29121 14.8174 5.66818C14.6458 6.04515 14.8122 6.48991 15.1892 6.66156L15.8108 5.29644ZM13.25 9.874V4H11.75V9.874H13.25ZM9.18918 5.29644C6.49843 6.52171 4.7655 9.19951 4.75001 12.1561L6.24999 12.1639C6.26242 9.79237 7.65246 7.6444 9.81082 6.66156L9.18918 5.29644ZM4.75005 12.1687C4.79935 16.4046 8.27278 19.7986 12.5086 19.75L12.4914 18.25C9.08384 18.2892 6.28961 15.5588 6.24995 12.1513L4.75005 12.1687ZM12.4914 19.75C16.7272 19.7986 20.2007 16.4046 20.2499 12.1687L18.7501 12.1513C18.7104 15.5588 15.9162 18.2892 12.5086 18.25L12.4914 19.75ZM20.25 12.1561C20.2345 9.19951 18.5016 6.52171 15.8108 5.29644L15.1892 6.66156C17.3475 7.6444 18.7376 9.79237 18.75 12.1639L20.25 12.1561Z"
+                      fill="#000000" />
+                  </svg>
+                </a>
+              </li>
+            {{else}}
+              <li class='nav-item'>
+                <a class='nav-link' href='/login'>
+                <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 12C20 7.58172 16.4183 4 12 4M12 20C14.5264 20 16.7792 18.8289 18.2454 17" stroke="#1C274C"
+                    stroke-width="1.5" stroke-linecap="round" />
+                  <path d="M4 12H14M14 12L11 9M14 12L11 15" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+                </a>
+              </li>
+            {{/if}}
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+{{#if dashboard}}
+<header class='bg-secondary text-white py-3 text-center'>
+  <h1 class='h3'>
+    <a href='/dashboard' class='text-white text-decoration-none'>
+      My Dashboard
+    </a>
+  </h1>
+</header>
+{{/if}}
+ 
+    <main class='container my-5'>
+      {{{body}}}
+    </main>
+
+    {{#if dashboard}}
+      <footer class='footer mt-auto py-3 bg-light text-center'>
+        <a href='/dashboard/new' class='btn btn-info'>➕ New Post</a>
+      </footer>
+    {{else}}
+      <footer class='mt-auto py-3 bg-light text-center'>
+        <img src="/assets/laptop.svg" alt="Home" width="50" height="50">
+      </footer>
+    {{/if}}
+
+    <script
+      src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js'
+    ></script>
+    {{#if logged_in}}
+      <script src='/js/logout.js'></script>
+    {{/if}}
+  </body>
+</html>
